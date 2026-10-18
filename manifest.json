@@ -1,7 +1,7 @@
 {
   "name": "Quick Scanner",
   "short_name": "QuickScanner",
-  "description": "Quick Scanner turns your device into a powerful portable scanner that recognizes text automatically (OCR) and helps you become more productive in your work and daily life. Download this scanner app for free to instantly scan, save, and share any document in PDF, JPG, Word or TXT formats.",
+  "description": "Quick Scanner turns your device into a powerful QR scanner",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,16 +10,28 @@
   "theme_color": "#1ECB8B",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/192/3126/3126504.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3126/3126504.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
